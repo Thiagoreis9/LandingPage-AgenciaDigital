@@ -1,0 +1,66 @@
+.SecaoBanner-content{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+#SecaoBanner{
+    margin-top: 54px;
+    height: 100vh;
+    max-height: 800px;
+    width: 100vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Banner{
+    width: 100%;
+    background-image: url(../../../public/assets/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins';
+    color: #022144;
+    background-color: #fafbfc;
+}
+
+.Content span{
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.Content p{
+    text-transform: uppercase;
+}
+
+.Content h2{
+    font-size: 42px;
+    font-weight: 200;
+}
+
+.dark-mode{
+    background-color: #252525;
+}
+
+.dark-mode .Content {
+    background-color: rgb(156, 157, 173);
+}
+.dark-mode .Content p{
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 609px) {
+    .Banner{
+        display: none;
+    }
+}

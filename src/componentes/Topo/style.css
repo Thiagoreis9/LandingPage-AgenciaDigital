@@ -1,0 +1,55 @@
+header{
+    width: 100vw;
+    position: fixed;
+}
+
+#Header-content{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    height: 55px;
+    margin: 0px auto;
+}
+
+header img{
+    height: 35px;
+}
+
+header button{
+    width: 35px;
+    border-radius: 100%;
+    border: 1px solid #747272;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+header button img{
+    width: 60%;
+    height: 60%;
+}
+
+header .light-mode{
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+}
+header .light-mode button{
+    border: 1px solid black;
+}
+
+header .dark-mode{
+    background-color: rgba(25, 25, 25, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+header .dark-mode button{
+    background-color: rgba(25, 25, 25, 0.0);
+    border: 1px solid #fff;
+}

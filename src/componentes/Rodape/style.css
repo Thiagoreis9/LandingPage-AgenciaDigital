@@ -1,0 +1,35 @@
+footer{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer p{
+    color: #8a8fa3;
+}
+
+footer p:last-of-type{
+    margin: 40px 0px 20px 0px;
+}
+
+footer img{
+    width: 45px;
+    margin: 5px;
+}
+
+footer span{
+    color: rgb(245, 198, 102);
+    font-weight: 900;
+}
+
+footer .light-mode{
+    background-color: #e90303;
+}

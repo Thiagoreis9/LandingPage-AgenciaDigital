@@ -1,0 +1,56 @@
+#SecaoExperienciaTrabalho{
+    max-height: 1400px;
+    min-height: 100%;
+    width: 100vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.title-section h2{
+    color: #32333c;
+    font-size: 38px;
+}
+.title-section p{
+    color: #8a8fa3;
+}
+.pseudoElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pseudoElement::before{
+    content: '';
+    margin: 20px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 247, 0);
+}
+.Cards-section{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    
+}
+#SecaoExperienciaTrabalho .dark-mode{
+    background-color: #393838;
+}
+#SecaoExperienciaTrabalho .dark-mode h2,p{
+    color: #cccccc;
+}
